@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    width: 90%;
+    width: 85%;
     max-width: 900px;
     margin: 100px auto;
 }
@@ -20,11 +20,12 @@ main {
 section.phone-images {
     display: inline-block;
     width: 40%;
+    text-align: center;
 }
 
 section.header-description {
     display: inline-block;
-    width: 50%;
+    width: 55%;
 }
 
 /* Instagram logo and login button side by side*/
@@ -36,4 +37,11 @@ h1 {
 
 .login-button {
     display: inline-block;
+}
+
+/* add background image to description section */
+.description {
+  background: url("../images/frame.png") no-repeat;
+  background-size: 100%;
+  padding: 10px 40px;
 }

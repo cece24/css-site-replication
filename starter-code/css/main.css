@@ -9,3 +9,9 @@ body {
   margin: 0;
   background: url("../images/bgtile.png") repeat-x;
 }
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 100px auto;
+}

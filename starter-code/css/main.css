@@ -8,12 +8,13 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background: url("../images/bgtile.png") repeat-x;
+  background-color: rgba(248, 252, 255, 0.98);
 }
 
 main {
     width: 85%;
     max-width: 900px;
-    margin: 100px auto;
+    margin: 100px auto 40px auto;
 }
 
 /* phone images and content side by side */
@@ -25,7 +26,7 @@ section.phone-images {
 
 section.header-description {
     display: inline-block;
-    width: 55%;
+    width: 59%;
 }
 
 /* Instagram logo and login button side by side*/
@@ -75,7 +76,7 @@ footer {
     text-transform: uppercase;
     color: #1c5380;
     font-weight: 500;
-    font-size: 0.9em;
+    font-size: 0.8em;
     padding: 5px;
 }
 

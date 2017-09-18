@@ -11,7 +11,29 @@ body {
 }
 
 main {
-    width: 80%;
+    width: 90%;
     max-width: 900px;
     margin: 100px auto;
+}
+
+/* phone images and content side by side */
+section.phone-images {
+    display: inline-block;
+    width: 40%;
+}
+
+section.header-description {
+    display: inline-block;
+    width: 50%;
+}
+
+/* Instagram logo and login button side by side*/
+
+h1 {
+    display: inline-block;
+    width: 80%;
+}
+
+.login-button {
+    display: inline-block;
 }

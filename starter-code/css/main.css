@@ -66,6 +66,10 @@ h1 {
   padding: 10px 40px;
 }
 
+.description h2 {
+    color: #1c5380;
+}
+
 /* Position footer links */
 footer {
     text-align: center;

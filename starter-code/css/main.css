@@ -30,13 +30,32 @@ section.header-description {
 
 /* Instagram logo and login button side by side*/
 
+header {
+  overflow: hidden;
+  width: 99%;
+}
+
 h1 {
-    display: inline-block;
-    width: 80%;
+  width: 70%;
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
 }
 
 .login-button {
+  background-color: #1c5380;
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  border-radius: 5px;
+}
+
+.login-button p {
     display: inline-block;
+    color: white;
+    padding: 0 3px;
 }
 
 /* add background image to description section */
